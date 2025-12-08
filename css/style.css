@@ -16,7 +16,7 @@ body {
   font-family: "Poppins", sans-serif;
   background-color: var(--bg);
   color: #fff;
-  min-height: 2000px;
+  min-height: 10000px;
 }
 
 /* NAVBAR */
@@ -242,7 +242,7 @@ body {
   .about .row {
     flex-wrap: wrap;
   }
-  
+
   .about .row .about-img img {
     height: 30rem;
     object-fit: cover;
