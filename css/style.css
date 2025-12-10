@@ -210,7 +210,7 @@ body {
 .list p,
 .contact p {
   text-align: center;
-  max-width: 30rem;
+  max-width: 50rem;
   margin: auto;
   font-weight: 300;
   line-height: 1.6;
@@ -227,6 +227,7 @@ body {
   padding-bottom: 4rem;
   padding-left: 2rem;
   padding-right: 2rem;
+  max-width: 40rem;
 }
 
 .list .row .list-card img {
@@ -254,14 +255,14 @@ body {
 
 .contact .row form {
   flex: 1 1 45rem;
-  padding: 5rem 2rem;
+  padding: 2rem 2rem;
   text-align: center;
 }
 
 .contact .row form .input-grup {
   display: flex;
   align-items: center;
-  margin-top: 2rem;
+  margin-top: 1rem;
   background-color: var(--bg);
   border: 1px solid #eee;
   padding-left: 2rem;
