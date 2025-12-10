@@ -17,7 +17,7 @@ body {
   font-family: "Poppins", sans-serif;
   background-color: var(--bg);
   color: #fff;
-  min-height: 10000px;
+  /* min-height: 10000px; */
 }
 
 /* NAVBAR */
@@ -369,6 +369,6 @@ body {
 /* MOBILE PHONE */
 @media (max-width: 450px) {
   html {
-    font-size: 50%;
+    font-size: 55%;
   }
 }
