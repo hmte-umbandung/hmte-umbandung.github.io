@@ -1,6 +1,6 @@
 :root {
   /* --primary: #b6895b; */
-  --primary: #7bbe04;
+  --primary: #7abe04;
   --bg: #000000;
 }
 
@@ -318,7 +318,6 @@ footer .socials a {
   color: #fff;
   margin: 1rem;
   font-size: 1.2rem;
-
 }
 
 footer .socials a:hover,
