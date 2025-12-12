@@ -42,7 +42,7 @@ body {
 .navbar-icon {
   display: flex;
   align-items: center;
-  gap: 15px;
+  gap: 10px;
 }
 
 .navbar .navbar-icon-img {
