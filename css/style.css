@@ -281,8 +281,9 @@ body {
 .contact .row form {
   flex: 1 1 40rem;
   padding: 2rem 2rem;
-  text-align: center;
+  text-align: left;
 }
+
 
 .contact .row form .input-grup {
   display: flex;
@@ -294,7 +295,19 @@ body {
   padding-left: 2rem;
 }
 
-.contact .row form .input-grup input {
+.contact .row form .input-grup img {
+  width: 3rem;
+}
+
+.contact .row form .input-grup a {
+  width: 100%;
+  padding: 2rem;
+  font-size: 1.7rem;
+  background: none;
+  color: #fff;
+}
+
+/* .contact .row form .input-grup input {
   width: 100%;
   padding: 2rem;
   font-size: 1.7rem;
@@ -309,8 +322,8 @@ body {
   font-size: 1.7rem;
   color: #fff;
   background-color: var(--primary);
-  cursor: pointer;
-}
+  cursor: pointer; }*/
+
 /* ========================= CONTACT SECTION END ========================= */
 
 /* ========================= FOOTER START ========================= */
