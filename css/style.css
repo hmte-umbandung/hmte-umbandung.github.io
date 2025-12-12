@@ -287,7 +287,8 @@ body {
 .contact .row form .input-grup {
   display: flex;
   align-items: center;
-  /* margin-top: 1rem; */
+  margin-top: 1rem;
+  margin-bottom: 1rem;
   background-color: var(--bg);
   border: 1px solid #eee;
   padding-left: 2rem;
