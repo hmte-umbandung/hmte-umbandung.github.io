@@ -29,7 +29,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 2.5vh 7%;
+  padding: 1.4rem 7%;
   background-color: rgba(1, 1, 1, 0.9);
   border-bottom: 1.5px solid var(--primary);
   position: fixed;
@@ -39,17 +39,20 @@ body {
   z-index: 9999;
 }
 
+.navbar-icon {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
 .navbar .navbar-icon-img {
-  max-width: 5rem;
-  margin-right: 0%;
+  max-width: 3.5rem;
 }
 
 .navbar .navbar-logo {
   font-size: 2rem;
   font-weight: 700;
   color: #fff;
-  padding-left: 0%;
-  /* font-style: italic; */
 }
 
 .navbar .navbar-logo span {
