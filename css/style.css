@@ -368,7 +368,7 @@ footer .credit a {
 /* TABLET */
 @media (max-width: 768px) {
   html {
-    font-size: 62.5%;
+    font-size: 60%;
   }
 
   #hamburger-menu {
