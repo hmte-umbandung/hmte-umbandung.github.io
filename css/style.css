@@ -129,7 +129,7 @@ body {
 }
 
 .hero .content h1 {
-  font-size: 4rem;
+  font-size: 3.5rem;
   color: #fff;
   text-shadow: 1px 1px 3px rgba(1, 1, 3, 0.5);
   line-height: 1.25;
@@ -256,7 +256,7 @@ body {
 }
 
 .list .row .list-card img {
-  border-radius: 30%;
+  /* border-radius: 30%; */
   width: 12rem;
 }
 
