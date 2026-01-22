@@ -97,6 +97,36 @@ body {
 #hamburger-menu {
   display: none;
 }
+
+.navbar .navbar-nav .dropdown {
+  display: inline-block;
+}
+
+.navbar .navbar-nav .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  min-width: 160px;
+  box-shadow: 0px 16px 8px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.navbar .navbar-nav .dropdown-content a {
+  color: #000000;
+  padding: 10px 10px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.navbar .navbar-nav .dropdown-content a:hover {
+  background-color: #fff;
+}
+
+.navbar .navbar-nav .dropdown:hover .dropdown-content {
+  display: block;
+}
+
 /* ========================= NAVBAR END ========================= */
 
 /* ========================= HERO SECTION START ========================= */
