@@ -2,8 +2,6 @@
   /* --primary: #b6895b; */
   --primary: #7abe04;
   --bg: #000000;
-  --text: #000000;
-  --transition: all 0.3s ease;
 }
 
 * {
@@ -168,15 +166,13 @@ body {
 /* ========================= ABOUT SECTION START ========================= */
 .about,
 .list,
-.contact,
-.container {
+.contact {
   padding: 10rem 7% 1.4rem;
 }
 
 .about h2,
 .list h2,
-.contact h2,
-.gallery h2 {
+.contact h2 {
   text-align: center;
   font-size: 2.5rem;
   margin-bottom: 3rem;
@@ -184,8 +180,7 @@ body {
 
 .about h2 span,
 .list h2 span,
-.contact h2 span,
-.gallery h2 span {
+.contact h2 span {
   color: var(--primary);
 }
 
@@ -236,8 +231,7 @@ body {
 
 /* ========================= LIST SECTION START ========================= */
 .list h2,
-.contact h2,
-.gallery h2 {
+.contact h2 {
   margin-bottom: 1rem;
 }
 
@@ -283,35 +277,6 @@ body {
   margin: 1rem auto 0.5rem;
 }
 /* ========================= LIST SECTION END ========================= */
-
-/* Gallery */
-.gallery {
-  background-color: var(--bg);
-}
-
-.gallery-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 1rem;
-}
-
-.gallery-item {
-  position: relative;
-  overflow: hidden;
-  border-radius: 10px;
-  cursor: pointer;
-}
-
-.gallery-item img {
-  width: 100%;
-  height: 250px;
-  object-fit: cover;
-  transition: var(--transition);
-}
-
-.gallery-item:hover img {
-  transform: scale(1.1);
-}
 
 /* ========================= CONTACT SECTION START ========================= */
 .contact .row {
