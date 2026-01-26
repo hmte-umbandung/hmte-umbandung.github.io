@@ -577,15 +577,6 @@ footer .credit a {
   }
 }
 
-.navbar .navbar-nav .sub-dropdown-content a {
-  /* color: #000000;
-  padding: 0px 20px 0px;
-  text-decoration: none; */
-  font-size: 1.75rem;
-  /* display: block;
-  text-align: left; */
-}
-
 /* MOBILE PHONE */
 @media (max-width: 450px) {
   html {
