@@ -160,7 +160,6 @@ body {
   display: block;
 }
 
-
 /* ========================= NAVBAR END ========================= */
 
 /* ========================= HERO SECTION START ========================= */
@@ -575,6 +574,19 @@ footer .credit a {
     color: #fff;
     padding: 0.7rem 0.7rem;
   }
+}
+
+/* .navbar .navbar-nav .sub-dropdown-content {
+  height: 5rem;
+} */
+
+.navbar .navbar-nav .sub-dropdown-content a {
+  color: #000000;
+  padding: 0px 20px 0px;
+  text-decoration: none;
+  font-size: 1.75rem;
+  display: block;
+  text-align: left;
 }
 
 /* MOBILE PHONE */
