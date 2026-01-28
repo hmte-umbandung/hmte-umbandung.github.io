@@ -131,7 +131,7 @@ body {
 
 /* SUB-DROPDOWN */
 
-.navbar .navbar-nav .sub-dropdown {
+/* .navbar .navbar-nav .sub-dropdown {
   display: inline-block;
 }
 
@@ -159,7 +159,7 @@ body {
 
 .navbar .navbar-nav .sub-dropdown:hover .sub-dropdown-content {
   display: block;
-}
+} */
 
 /* ========================= NAVBAR END ========================= */
 
