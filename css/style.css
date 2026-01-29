@@ -178,7 +178,6 @@ body {
   width: 100vw;
   height: 100vh;
   display: flex;
-  /* justify-content: center; */
   align-items: center;
   position: relative;
   position: absolute;
@@ -438,7 +437,7 @@ body {
 }
 /* ========================= LIST SECTION END ========================= */
 
-/* Gallery */
+/* ========================= GALLERY SECTION START ========================= */
 .gallery {
   background-color: var(--bg);
 }
@@ -466,6 +465,7 @@ body {
 .gallery-item:hover img {
   transform: scale(1.1);
 }
+/* ========================= GALLERY SECTION END ========================= */
 
 /* ========================= CONTACT SECTION START ========================= */
 .contact .row {
