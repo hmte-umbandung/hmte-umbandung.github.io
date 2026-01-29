@@ -44,7 +44,7 @@ if (sliderItems) {
     } else {
       sliderActive++;
     }
-  }, 3000);
+  }, 5000);
 }
 
 
