@@ -17,6 +17,7 @@
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
@@ -24,6 +25,7 @@ body {
   background-color: var(--bg);
   color: #fff;
   /* min-height: 10000px; */
+  overflow-x: hidden;
 }
 
 /* ========================= NAVBAR START ========================= */
@@ -164,7 +166,89 @@ body {
 /* ========================= NAVBAR END ========================= */
 
 /* ========================= HERO SECTION START ========================= */
-.hero {
+
+.slider-container {
+    width: 100vw;
+    height: 100vh;
+    background-color: #000000;
+    isolation: isolate;
+}
+
+.slider-container .slider-item {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  position: relative;
+  position: absolute;
+  transition: opacity 1000ms ;
+}
+
+.slider-container .slider-item[data-show="show"] {
+  opacity: 1;
+}
+
+.slider-container .slider-item[data-show="hidden"] {
+  z-index: -1;
+  opacity: 0;
+}
+
+.slider-container .slider-item::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: hsla(0, 0%, 0%, 0.521);
+  /* background-image: linear-gradient(to top, rgba(0, 0, 0, 0.548), rgba(0, 0, 0, 0.247), transparent); */
+}
+
+.slider-container .slider-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.slider-container .slider-item .content {
+  padding: 1.4rem 7%;
+  max-width: 100rem;
+  position: absolute;
+}
+
+.slider-container .slider-item .content h1 {
+  font-size: 3.5rem;
+  color: #fff;
+  text-shadow: 1px 1px 3px rgba(1, 1, 3, 0.5);
+  line-height: 1.25;
+}
+
+.slider-container .slider-item .content h1 span {
+  color: var(--primary);
+}
+
+.slider-container .slider-item .content p {
+  font-size: 1.25rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  line-height: 1rem;
+  font-weight: 300;
+  text-shadow: 1px 1px 3px rgba(1, 1, 3, 0.5);
+}
+
+.slider-container .slider-item .content .cta {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  display: inline-block;
+  padding: 1rem 3rem;
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: var(--bg);
+  background-color: var(--primary);
+  border-radius: 1rem;
+  box-shadow: 1px 1px 3px rgba(1, 1, 3, 0.5);
+}
+
+/* .hero {
   min-height: 100vh;
   display: flex;
   align-items: center;
@@ -173,9 +257,9 @@ body {
   background-size: cover;
   background-position: center;
   position: relative;
-}
+} */
 
-.hero::after {
+/* .hero::after {
   content: "";
   display: block;
   position: absolute;
@@ -212,7 +296,7 @@ body {
   line-height: 1rem;
   font-weight: 300;
   text-shadow: 1px 1px 3px rgba(1, 1, 3, 0.5);
-  /* mix-blend-mode: difference; */
+  mix-blend-mode: difference;
 }
 
 .hero .content .cta {
@@ -226,7 +310,7 @@ body {
   background-color: var(--primary);
   border-radius: 1rem;
   box-shadow: 1px 1px 3px rgba(1, 1, 3, 0.5);
-}
+} */
 /* ========================= HERO SECTION END ========================= */
 
 /* ========================= ABOUT SECTION START ========================= */
