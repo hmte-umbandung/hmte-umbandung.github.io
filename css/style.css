@@ -355,6 +355,11 @@ body {
 
 .about .row .about-img img {
   width: 100%;
+  transition: var(--transition);
+}
+
+.about .row .about-img:hover img {
+  transform: scale(1.2);
 }
 
 .about .row .content {
