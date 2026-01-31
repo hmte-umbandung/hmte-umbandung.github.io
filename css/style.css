@@ -322,14 +322,16 @@ body {
 .about,
 .list,
 .contact,
-.container {
+.container,
+.program {
   padding: 10rem 7% 1.4rem;
 }
 
 .about h2,
 .list h2,
 .contact h2,
-.gallery h2 {
+.gallery h2,
+.program h2 {
   text-align: center;
   font-size: 2.5rem;
   margin-bottom: 3rem;
@@ -338,7 +340,8 @@ body {
 .about h2 span,
 .list h2 span,
 .contact h2 span,
-.gallery h2 span {
+.gallery h2 span,
+.program h2 span {
   color: var(--primary);
 }
 
@@ -390,12 +393,14 @@ body {
 /* ========================= LIST SECTION START ========================= */
 .list h2,
 .contact h2,
-.gallery h2 {
+.gallery h2,
+.program h2 {
   margin-bottom: 1rem;
 }
 
 .list h4,
-.contact h4 {
+.contact h4,
+.program h4 {
   font-size: 1.25rem;
   text-align: center;
   max-width: 75rem;
@@ -430,12 +435,53 @@ body {
 .list .row .list-card img {
   /* border-radius: 30%; */
   width: 12rem;
+  transition: var(--transition);
 }
 
 .list .row .list-card .list-card-title {
   margin: 1rem auto 0.5rem;
 }
+
+.list .row .list-card:hover img {
+  transform: scale(1.2);
+}
 /* ========================= LIST SECTION END ========================= */
+
+/* ========================= PROGRAM SECTION START ========================= */
+.program {
+  background-color: var(--bg);
+}
+
+.program .row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 5rem;
+  justify-content: center;
+}
+
+.program .row .list-card {
+  width: 30rem;
+  height: 20rem;
+  border-radius: 10px;
+  background-color: var(--primary);
+  text-align: center;
+  position: relative;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.program .row .list-card img {
+  width: 100%;
+  height: 85%;
+  object-fit: cover;
+}
+
+.program .row .list-card:hover {
+  transform: scale(1.1);
+}
+
+/* ========================= PROGRAM SECTION END ========================= */
 
 /* ========================= GALLERY SECTION START ========================= */
 .gallery {
