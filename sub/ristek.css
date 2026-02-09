@@ -594,6 +594,11 @@ footer .credit a {
     font-size: 1.2rem;
   }
 
+  .anggota .row .list-card img {
+    /* border-radius: 30%; */
+    width: 15rem;
+  }
+
   .contact .row {
     flex-wrap: wrap;
   }
