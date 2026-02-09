@@ -207,6 +207,7 @@ body {
 
 .about h2,
 .list h2,
+.anggota h2,
 .contact h2,
 .gallery h2 {
   text-align: center;
@@ -216,6 +217,7 @@ body {
 
 .about h2 span,
 .list h2 span,
+.anggota h2 span,
 .contact h2 span,
 .gallery h2 span {
   color: var(--primary);
@@ -282,6 +284,7 @@ body {
 
 /* ========================= LIST SECTION START ========================= */
 .list h2,
+.anggota h2,
 .contact h2,
 .gallery h2,
 .about h2 {
@@ -320,7 +323,7 @@ body {
   padding-bottom: 4rem;
   padding-left: 2rem;
   padding-right: 2rem;
-  max-width: 40rem;
+  width: 40rem;
 }
 
 .list .row .list-card img {
@@ -332,6 +335,59 @@ body {
   margin: 1rem auto 0.5rem;
 }
 /* ========================= LIST SECTION END ========================= */
+
+/* ========================= ANGGOTA SECTION START ========================= */
+.anggota {
+  padding: 10rem 0% 1.4rem;
+}
+
+.anggota h2,
+.contact h2 {
+  margin-bottom: 1rem;
+}
+
+.anggota h4,
+.contact h4 {
+  font-size: 1.25rem;
+  text-align: center;
+  max-width: 75rem;
+  margin: auto;
+  font-weight: 300;
+  line-height: 1.6;
+}
+
+.anggota p {
+  text-align: justify;
+  max-width: 50rem;
+  margin: auto;
+  font-weight: 300;
+  line-height: 1.6;
+}
+
+.anggota .row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 5rem;
+  justify-content: center;
+}
+
+.anggota .row .list-card {
+  text-align: center;
+  padding-bottom: 4rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  max-width: 40rem;
+}
+
+.anggota .row .list-card img {
+  /* border-radius: 30%; */
+  width: 20rem;
+}
+
+.anggota .row .list-card .list-card-title {
+  margin: 1rem auto 0.5rem;
+}
+/* ========================= ANGGOTA SECTION END ========================= */
 
 /* Gallery */
 .gallery {
