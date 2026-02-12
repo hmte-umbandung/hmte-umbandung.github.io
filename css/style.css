@@ -733,7 +733,7 @@ footer .credit a {
 /* MOBILE PHONE */
 @media (max-width: 450px) {
   html {
-    font-size: 57.5%;
+    font-size: 60%;
   }
 }
 /* ========================= MEDIA QUERIES END ========================= */
