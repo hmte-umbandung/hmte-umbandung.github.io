@@ -493,8 +493,8 @@ body {
 }
 
 .program .row .list-card h3 {
-text-decoration: none;
-color: #fff;
+  text-decoration: none;
+  color: #fff;
 }
 
 /* ========================= PROGRAM SECTION END ========================= */
@@ -650,6 +650,14 @@ footer .credit a {
 
   #hamburger-menu {
     display: inline-block;
+  }
+
+  #mail {
+    display: none;
+  }
+
+  #search {
+    display: none;
   }
 
   .navbar .navbar-nav {
