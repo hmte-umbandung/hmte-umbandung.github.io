@@ -467,7 +467,8 @@ body {
   flex-wrap: wrap;
   gap: 5rem;
   justify-content: center;
-  padding: 5rem 7% 1.4rem;
+  padding: 0rem 7% 1.4rem;
+  margin-top: 3rem;
 }
 
 .program .row .list-card {
@@ -507,7 +508,7 @@ color: #fff;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 1rem;
-  margin-top: 5rem;
+  margin-top: 3rem;
 }
 
 .gallery-item {
@@ -532,7 +533,7 @@ color: #fff;
 /* ========================= CONTACT SECTION START ========================= */
 .contact .row {
   display: flex;
-  margin-top: 2rem;
+  margin-top: 3rem;
   background-color: #222;
 }
 
