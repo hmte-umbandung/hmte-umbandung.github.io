@@ -222,7 +222,7 @@ body {
 }
 
 .slider-container .slider-item .content h1 {
-  font-size: 3.5rem;
+  font-size: 3rem;
   color: #fff;
   text-shadow: 1px 1px 3px rgba(1, 1, 3, 0.5);
   line-height: 1.25;
@@ -645,7 +645,7 @@ footer .credit a {
 /* TABLET */
 @media (max-width: 768px) {
   html {
-    font-size: 60%;
+    font-size: 65%;
   }
 
   #hamburger-menu {
@@ -733,7 +733,7 @@ footer .credit a {
 /* MOBILE PHONE */
 @media (max-width: 450px) {
   html {
-    font-size: 57.5%;
+    font-size: 60%;
   }
 }
 /* ========================= MEDIA QUERIES END ========================= */
