@@ -465,7 +465,7 @@ body {
   text-align: justify;
   max-width: 50rem;
   margin: auto;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 1.6;
   color: var(--text);
 }
