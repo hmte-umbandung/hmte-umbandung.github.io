@@ -383,6 +383,49 @@ body {
   color: var(--text);
 }
 
+.about .row .content .visi {
+  background-color: #222;
+  border-radius: 10px;
+  margin: 0rem 0rem 3rem;
+  padding-bottom: 1.5rem;
+}
+
+.about .row .content .visi h3 {
+  font-size: 1.4rem;
+  padding: 1rem 0rem 0rem;
+  text-align: center;
+}
+
+.about .row .content .visi p {
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.6;
+  text-align: center;
+  padding: 0rem 1rem;
+  color: var(--text);
+}
+
+.about .row .content .misi {
+  background-color: #222;
+  border-radius: 10px;
+  padding-bottom: 1.5rem;
+}
+
+.about .row .content .misi h3 {
+  font-size: 1.4rem;
+  padding: 1rem 0rem 0rem;
+  text-align: center;
+}
+
+.about .row .content .misi p {
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.6;
+  text-align: justify;
+  padding: 0rem 1rem;
+  color: var(--text);
+}
+
 .about .row .cta {
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -565,7 +608,7 @@ body {
 
 .contact .row form .input-grup a {
   width: 100%;
-  padding: 2rem;
+  padding: 1.5rem 2rem;
   font-size: 1.7rem;
   background: none;
   color: #fff;
@@ -626,6 +669,7 @@ footer .links a {
 
 footer .credit {
   font-size: 1.2rem;
+  padding: 1rem 0rem 0rem; 
 }
 
 footer .credit a {
@@ -665,7 +709,7 @@ footer .credit a {
     top: 100%;
     right: -100%;
     background-color: #fff;
-    width: 30rem;
+    width: 25rem;
     height: 100vh;
     transition: 0.3s;
   }
@@ -678,7 +722,7 @@ footer .credit a {
     color: var(--bg);
     display: block;
     width: 25rem;
-    margin: 1.5rem;
+    margin: 1rem;
     padding: 0.5rem;
     font-size: 2rem;
   }
